@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simba Cement Online Booking</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Simba Cement</h1>
+    <p>Online Booking Platform</p>
+  </header>
+
+  <section class="intro">
+    <h2>Order Cement Easily</h2>
+    <p>Fast, reliable and convenient Simba Cement ordering. Fill the form below and we’ll contact you.</p>
+  </section>
+
+  <section class="booking">
+    <h2>Book Your Cement</h2>
+
+    <form action="https://formspree.io/f/xeqybkng" method="POST">
+      <input type="text" name="name" placeholder="Full Name" required>
+      <input type="tel" name="phone" placeholder="Phone Number" required>
+      <input type="text" name="location" placeholder="Delivery Location" required>
+      <input type="number" name="bags" placeholder="Number of Bags" required>
+
+      <select name="cement_type" required>
+        <option value="">Select Cement Type</option>
+        <option>Simba Power Plus</option>
+        <option>Simba Strong</option>
+        <option>Simba Fast Set</option>
+      </select>
+
+      <button type="submit">Submit Booking</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2026 Simba Cement. All Rights Reserved.</p>
+  </footer>
+
+  <!-- WhatsApp Button -->
+  <a href="https://wa.me/254702204520" class="whatsapp" target="_blank">
+    💬 Chat on WhatsApp
+  </a>
+
+</body>
+</html>
